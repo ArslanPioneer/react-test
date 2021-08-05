@@ -3,6 +3,8 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 50%;
+  position: relative;
+  left: 50%;
 }
 .item-container {
   display: flex;
