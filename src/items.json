@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "5e5caf028bbad4b05ac43759",
+    "phase": "PR Analysis",
+    "name": "Information Requests Closed",
+    "comment": "",
+    "active": "Y",
+    "order": 1,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dba673e6344b8ba94c8c1",
+    "phase": "PR Fixing",
+    "name": "Fixed Code changes committed",
+    "comment": "",
+    "active": "Y",
+    "order": 21,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbcd3d270a782074ac4cc",
+    "phase": "PR Analysis",
+    "name": "RC is known",
+    "comment": "",
+    "active": "Y",
+    "order": 2,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbde78bba9681e472e8c5",
+    "phase": "PR Fixing",
+    "name": "Code Review Completed",
+    "comment": "",
+    "active": "Y",
+    "order": 23,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbe44274fa78263688729",
+    "phase": "Code CI",
+    "name": "CI is Passed",
+    "comment": "",
+    "active": "Y",
+    "order": 24,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbedd8bba9681e472e8c9",
+    "phase": "CB",
+    "name": "CB is available",
+    "comment": "",
+    "active": "Y",
+    "order": 27,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbefa4218a281b3175bd6",
+    "phase": "QT",
+    "name": "QT is passed",
+    "comment": "",
+    "active": "Y",
+    "order": 28,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbf25274fa7826368872b",
+    "phase": "Verification",
+    "name": "Verification is passed",
+    "comment": "",
+    "active": "Y",
+    "order": 30,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbf6e393db681c3c2e121",
+    "phase": "Verification",
+    "name": "Impacted test cases are passed",
+    "comment": "",
+    "active": "Y",
+    "order": 31,
+    "priority": "1"
+  },
+  {
+    "_id": "5e742f4f759285380076a410",
+    "phase": "PR Analysis",
+    "name": "Valid Feature ID is given",
+    "comment": "",
+    "active": "Y",
+    "order": 13,
+    "priority": "1"
+  },
+  {
+    "_id": "5e742fea96e0d13739f47b11",
+    "phase": "Code Promotion",
+    "name": "PR Fixed Code is Promoted",
+    "comment": "",
+    "active": "Y",
+    "order": 26,
+    "priority": "1"
+  },
+  {
+    "_id": "5e5dbe92274fa7826368872a",
+    "phase": "NEW TST",
+    "name": "new/modified test case(s) passed",
+    "comment": "The new TST can be UT or SCT",
+    "active": "Y",
+    "order": 25,
+    "priority": "1"
+  }
+]

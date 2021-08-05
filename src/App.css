@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.item-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+}
+.item {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: 10px 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 
-.App-link {
-  color: #61dafb;
+.arrow-right{                        /*整个箭头容器*/
+            width:42px;
+            height:40px;
+            display: inline-block;
+            position: relative;             /*相对定位*/
+            top: 25%;
+}
+.arrow-right:before,.arrow-right:after{
+            content: '';
+            border-color: transparent;       /*伪元素边框颜色为透明*/
+            border-style: solid;
+            position: absolute;               /*伪元素绝对定位*/
+}
+.arrow-right:after{                   /*箭头尾部的矩形*/
+            width: 60%;
+            height: 9%;
+            background-color: #555;
+            top: 5px;
+            left: 0;
+}
+.arrow-right:before{                 /*箭头三角形*/
+            border-left-color: #555;
+            border-width: 10px;
+            left: 30px;
+            top: 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.arrow-left{                        /*整个箭头容器*/
+            width:42px;
+            height:40px;
+            display: inline-block;
+            position: relative;             /*相对定位*/
+            top: 25%;
+}
+.arrow-left:before,.arrow-left:after{
+            content: '';
+            border-color: transparent;       /*伪元素边框颜色为透明*/
+            border-style: solid;
+            position: absolute;               /*伪元素绝对定位*/
+}
+.arrow-left:after{                   /*箭头尾部的矩形*/
+            width: 60%;
+            height: 9%;
+            background-color: #555;
+            top: 5px;
+            left: 0;
+}
+.arrow-left:before{                 /*箭头三角形*/
+            border-right-color: #555;
+            border-width: 10px;
+            right: 40px;
+            top: 0;
+
 }
